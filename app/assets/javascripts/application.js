@@ -27,6 +27,7 @@ $(document).ready(function(){
       success: function(data) {
         $('.chiquibot-response').removeClass('hide');
         $('#chiquito-response').html(data['response']);
+        $('#chiquito-request').html(data['request']);
         $('#query').val('');
       }
     });

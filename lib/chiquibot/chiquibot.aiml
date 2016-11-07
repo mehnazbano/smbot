@@ -3,79 +3,82 @@
   <aiml version="1.0">
 
     <category>
-      <pattern>HOLA *</pattern>
+      <pattern>HI *</pattern>
       <template>
-        Buenos días Grijando More, ¿qué quieres?
+        Hello! How is your day?
       </template>
     </category>
 
     <category>
-      <pattern>ADIOS *</pattern>
+      <pattern>GOODBYE *</pattern>
       <template>
-        ¡Hasta luego Lucaaaaaas!
+        BYE See You Later!
       </template>
     </category>
 
     <category>
-      <pattern>CHIQUITO *</pattern>
+      <pattern>@NEWSFEED *</pattern>
+      <template>
+        Thank you for posting news feed.
+      </template>
+    </category>
+
+    <category>
+      <pattern>ANURAG *</pattern>
       <template>
         <random>
-          <li>¿Qué quieres, pecador de la pradera?</li>
-          <li>¡Jaaaaaaaaarl!, ¡Qué dise tu!</li>
+          <li>I am doing great, what about you ?</li>
+          <li>I am bored in making Bot!</li>
         </random>
       </template>
     </category>
 
     <category>
-      <pattern>* CHISTE</pattern>
+      <pattern>* JOKE</pattern>
         <template>
           <random>
             <li>
-              Dos amigos:
-              - Oye, pues mi hijo en su nuevo trabajo se siente como pez en el agua.
-              - ¿Qué hace?
-              - Nadaaaaaaarl
+              Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all
             </li>
             <li>
-              - Mi amor, estoy embarazada. ¿Qué te gustaría que fuera?
-              - ¿Una bromaaaaarl?
+              - Doctor: "I'm sorry but you suffer from a terminal illness and have only 10 to live.
+              - Patient: "What do you mean, 10? 10 what? Months? Weeks?!"
+              - Doctor: "Nine."
             </li>
             <li>
-              - ¿Por qué se suicidó el libro de matemáticas?.
-              - Porque tenia muchos problemas, ¡cobarde!
+              - It is so cold outside I saw a politician with his hands in his own pockets
             </li>
           </random>
       </template>
     </category>
 
     <category>
-      <pattern>* CONSEJO</pattern>
+      <pattern>* ADVICE</pattern>
       <template>
         <random>
-          <li>¡Ten cuidadínnn no te hagas pupita en el fistro duodenalll!</li>
-          <li>Relájate físicamente, morálmente</li>
-          <li>¡Relájese usterl!</li>
+          <li>Learning is a good medicine</li>
+          <li>I am not a Laywer</li>
+          <li>Excuse me! I cant advise you</li>
         </random>
       </template>
     </category>
 
     <category>
-      <pattern>* FRASES</pattern>
+      <pattern>* FINE</pattern>
       <template>
         <random>
-          <li>¡Trabaja menos que el sastre de Tarzán!</li>
-          <li>¡Eres más peligroso que un tiroteo en un ascensooooorl!</li>
-          <li>¡No puedo, no puedooooorl!</li>
+          <li>I am also Fine</li>
+          <li>Great! All the best</li>
         </random>
       </template>
     </category>
 
     <category>
-      <pattern>CANTA *</pattern>
+      <pattern>SING *</pattern>
       <template>
         <random>
-          <li>¡Sieteee caballo que vienennn de Bonanzaaarrlll!</li>
-          <li>¡Lo maté en agosto, la calóh apretabaaaaaa!</li>
+          <li>Always take a big bite. It’s such a gorgeous sight To see you eat in the middle of the night</li>
+          <li>I’ve been in my mind. It’s such a fine line. That keeps me searchin’ for a heart of gold. And I’m gettin’ old</li>
         </random>
       </template>
     </category>

@@ -16,6 +16,10 @@
 
 body {
   padding-top: 50px;
+  background: image-url("bacimage.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 .starter-template {
@@ -28,7 +32,7 @@ body {
 }
 
 .bs-callout {
-  padding: 20px;
+  padding: 10px;
   margin: 20px 0;
   border-width: 1px 1px 1px 5px;
   border-style: solid;
@@ -40,21 +44,62 @@ body {
   border-image: none;
   border-radius: 3px;
   text-align: left;
+  background: white;
+  color: black;
+  max-width: 30%;
 }
 
-.bs-callout-info {
-  border-left-color: #1b809e;
-}
 
-.bs-callout-info h4 {
-  color: #1b809e;
-}
 
 .bs-callout h4 {
   margin-top: 0;
   margin-bottom: 5px;
+  display: inline-block;
 }
 
 .alert-info {
   text-align: left;
+}
+
+.navbar-inverse {
+  background-color: #333b4d;
+  color: white;
+  border: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.chiquibot-response p {
+  margin: 0;
+  display: inline-block;
+}
+
+.chiquibot-responsers:before {
+  content: url("bot.png");
+  top: 7px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.chiquibot-responser:before {
+  content:url("you.png");
+  top: 7px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.infoBot {
+  background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border: 4px solid #333b4d;
+  color: #333b4d;
+  font-size: 20px;
+  margin: auto auto 20px;
+  padding: 10px 0;
+  width: 80%;
 }
