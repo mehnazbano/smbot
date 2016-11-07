@@ -3,7 +3,6 @@ Chiquibot
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
 
 Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
@@ -25,10 +24,6 @@ This is an example of a conversational bot on **Ruby on Rails**. Was created wit
 
 If you want to know more about the guy who's inspired this bot, you can check his [Wikipedia](https://en.wikipedia.org/wiki/Chiquito_de_la_Calzada) entry or search some videos on Youtube. Enjoy it! :D
 
-Original author
----------------
-
-Iván González, *a.k.a* [dreamingechoes](https://github.com/dreamingechoes)
 
 Getting Started
 ---------------
@@ -49,17 +44,13 @@ user@computer:/chiquibot$ rake db:setup
 * When all this finish, you're ready to launch the app!
 
 ```sh
-user@computer:/chiquibot$ rails s
 ```
 
 * Open your web browser and go to [http://localhost:3000](http://localhost:3000) like in all the regular ***Rails*** apps.
 
 *Note: please, try only talk to Chiquito in Spanish, ¡pecador de la pradera! :)*
 
-Usage
--------------------------
 
-If you want to customize the bot, you only have to modify the `lib/chiquibot/chiquibot.aiml` or add more `.aiml` files on this folder to raise the variety of bot responses.
 
 Contributing
 ------------
